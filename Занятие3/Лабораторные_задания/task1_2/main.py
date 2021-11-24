@@ -2,7 +2,10 @@ OUTPUT_FILE = "output.txt"
 
 
 def task():
-    ...  # TODO записать лесенку в файл
+    with open(OUTPUT_FILE) as file:  # записать лесенку в файл
+        f = open("text2.txt",'w')
+        for line in file:
+            f.write(line)
 
 
 if __name__ == "__main__":

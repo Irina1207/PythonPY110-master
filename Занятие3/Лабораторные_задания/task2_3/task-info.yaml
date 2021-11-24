@@ -3,19 +3,19 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 58
-    length: 36
+  - offset: 54
+    length: 66
     placeholder_text: '# TODO считать содержимое JSON файла'
     initial_state:
       length: 36
       offset: 58
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: |-
       with open(filename) as f:
               json_data = json.load(f)
-  - offset: 107
+  - offset: 133
     length: 53
     placeholder_text: '...  # TODO найти максимальный элемент по ключу score'
     initial_state:

@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 244
-    length: 0
+    length: 31
     placeholder_text: '# TODO c помощью метода строки strip очистить строку от непечатыемых
       символов'
     initial_state:
@@ -12,7 +12,7 @@ files:
       offset: 256
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: line = line.strip()
   text: |
     def task():
@@ -47,25 +47,8 @@ files:
     line_4
     [1, 2, 3]
   learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: Incorrect
-  time: Wed, 24 Nov 2021 15:13:14 UTC
-  expected: |
-    1
-    2
-    3
-    line_4
-    [1, 2, 3]
-  actual: |+
-    1
-
-    2
-
-    3
-
-    line_4
-
-    [1, 2, 3]
-
+  message: Congratulations!
+  time: Wed, 24 Nov 2021 15:18:25 UTC
 record: -1
