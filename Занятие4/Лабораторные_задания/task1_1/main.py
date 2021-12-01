@@ -15,3 +15,8 @@ def task():
 
 if __name__ == '__main__':
     task()
+
+#### \d\d \[(\.+){1,}] \(http[s]://\w+
+#### \d\d\. \[(.+?)\]\(https://.+?\)\s+\w+\w+
+#### \d\d\. \[(.+?)\]\(https://.+?\)\s+\w+ \w+ \w+ \(\d+.\d% recommended?\)\s...\(https://www.\w+.\w+/\w+/(.+?)/\d\d.\w+#\w+\)\s..(.+?)\"\s\[\w+.\w+\]\(https://\w+.\w+/\w+\)
+# https://regex101.com/r/wxXm1z/1
